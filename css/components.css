@@ -1,0 +1,60 @@
+.standart__button {
+    width: 100%;
+    max-width: 512px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: var(--blue);
+
+    font-size: 16px;
+
+    border: none;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.alternative__button {
+    background-color: transparent;
+    border: 1px solid var(--white);
+}
+
+.section {
+    display: grid;
+    grid-template-columns: 43% 57%;
+    grid-template-rows: 90vh;
+    grid-template-areas: "first__area second__area";
+}
+
+.first__area {
+    grid-area: first__area;
+}
+
+.second__area {
+    grid-area: second__area;
+}
+
+.standart__button:hover {
+    color: var(--gray);
+    background-color: var(--light-blue);
+}
+
+.alternative__button:hover {
+    color: var(--black);
+    background-color: var(--white);
+    border: var(--white);
+}
+
+.standart__button:active {
+    color: var(--gray);
+    background-color: var(--red);
+}
+
+@media screen and (max-width: 500px){
+    .section {
+        height: 400px;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 43% 57%;
+        grid-template-areas: "first__area"
+                            "second__area";
+    }
+}

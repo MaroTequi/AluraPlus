@@ -1,0 +1,48 @@
+.favorites {
+    height: 80vh;
+    text-align: center;
+}
+
+.favorites__list {
+    display: flex;
+    justify-content: center;
+}
+
+.favorites__list-item:nth-child(1)
+span {
+    background: url(../img/tv.png) center / contain no-repeat;
+}
+
+.favorites__list-item:nth-child(2)
+span {
+    background: url(../img/computador.png) center / contain no-repeat;
+}
+
+.favorites__list-item:nth-child(3)
+span {
+    background: url(../img/celular.png) center / contain no-repeat;
+}
+
+.favorites__list-item {
+    width: 33%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.favorites__list-item 
+span {
+    width: 100%;
+    height: 192px;
+}
+
+.favorites h1 {    
+    font-size: 48px;
+    line-height: 120%;
+    margin-bottom: 40px;
+}
+
+.favorites__list-item 
+h2 {
+    margin-top: 1rem;
+}

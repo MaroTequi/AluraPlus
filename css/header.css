@@ -1,0 +1,29 @@
+.header {
+    background: url(../img/Background.png) center / cover no-repeat;
+    grid-template-areas: "first__area second__area";
+}
+
+.datas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+.datas img {
+    display: block;
+    width: 348px;
+    height: 100px;
+
+    margin: 1rem 0 2rem 0;
+}
+
+@media screen and (max-width:500px) {
+    .header {
+        display: flex;
+        background: none;
+        margin-top: 2rem;
+    }
+}

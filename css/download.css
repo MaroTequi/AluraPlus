@@ -1,0 +1,21 @@
+.download {
+    grid-template-columns: 50% 50%;
+}
+
+.download span {
+    background: url(../img/Notebook.png) center / contain no-repeat;
+}
+
+.download div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-left: 4rem;
+}
+
+.download h1 {    
+    font-size: 48px;
+    line-height: 120%;
+    margin-bottom: 8px;
+}

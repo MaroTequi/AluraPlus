@@ -1,0 +1,24 @@
+.display {
+    grid-template-columns: 50% 50%;
+}
+
+.display span{
+    background: url(../img/Plataformas.png) center / contain no-repeat;
+}
+
+.display div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 4rem;
+}
+
+.display h1 {    
+    font-size: 48px;
+    line-height: 120%;
+    margin-bottom: 8px;
+}
+
+.display p {
+    line-height: 150%;
+}
